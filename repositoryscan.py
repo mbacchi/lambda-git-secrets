@@ -23,7 +23,7 @@ def perform_scan(path):
 
 
 def handler(event, context):
-    print("Starting too-many-secrets lambda handler function")
+    print("Starting repository scan lambda handler function")
     print("Repository provided from event was: {}".format(event['repository']))
 
     remote_repo = event['repository']
